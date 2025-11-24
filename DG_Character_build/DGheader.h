@@ -6,5 +6,6 @@ class Player {
 protected:
     string Player;
 public:
+    void PlayerStats(string race){}
  
 };

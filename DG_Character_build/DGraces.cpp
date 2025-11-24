@@ -7,31 +7,31 @@ class Race : Player {
 protected:
     string race;
 public:
-    double Human = [1, 1, 1, 1, 1]
+    string Human;
 
-    double Kanassan = [1, 0.9, 1.1, 1.05, 0.95]
+    string Kanassan;
 
-    double Kia = [0.95, 0.9, 1.1, 0.95, 1.1]
+    string Kia;
 
-    double Bio_Android = [1.15, 0.95, 1, 0.95, 0.95]
+    string Bio_Android;
 
-    double Bojack = [1.15, 0.85, 0.85, 1.2, 0.95]
+    string Bojack;
 
-    double Tuffle = [0.9, 0.9, 1.15, 1.15, 0.9]
+    string Tuffle;
 
-    double Yardratian = [1, 1.1, 0.9, 0.95, 1.05]
+    string Yardratian;
 
-    double Namekian = [1.05, 0.9, 1.1, 0.9, 1.05]
+    string Namekian;
 
-    double Majin = [1.1, 1, 0.9, 0.95, 1.05]
+    string Majin;
 
-    double Frost_Demon = [0.95, 1.1, 0.9, 0.9, 1.2]
+    string Frost_Demon;
 
-    double Demon = [1.05, 0.95, 0.9, 1.1, 1.1]
+    string Demon;
 
-    double Android = [0.9, 1.2, 1.2, 0.85, 0.85]
+    string Android;
 
-    double Half_Saiyan = [0.95, 0.95, 0.95, 1.1, 1.1]
+    string Half_Saiyan;
 
-    double Saiyan = [0.95, 0.9, 0.95, 1.1, 1.1]
+    string Saiyan;
 };
