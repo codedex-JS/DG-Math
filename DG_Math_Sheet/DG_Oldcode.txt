@@ -1,0 +1,58 @@
+ #include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    double DBOG_MaxStats;
+    double DBOG_MaxLvl;
+    double Stat_buff;
+    double Stat_Level;
+    int Grand_Kia;
+    int Gray_Math;
+    string Month;
+    bool Math = true;
+    string going;
+
+    cout << "Month: ";
+    cin >> Month;
+
+    cout << "Max Level: ";
+    cin >> DBOG_MaxLvl;
+
+    while(Math == true){
+        cout << "GK: ";
+        cin >> Grand_Kia;
+
+        cout << "Max Stats: ";
+        cin >> DBOG_MaxStats;
+
+
+        Stat_buff = 0.0045;
+        Stat_Level = 0.015;
+        Gray_Math = DBOG_MaxStats + 145;
+
+
+
+
+        cout << Month << ": " << endl;
+        cout << "Max stats: " << Gray_Math << " - " << DBOG_MaxStats << endl;
+        cout << "GK: " << Grand_Kia << endl;
+        cout << "Based max stats: 6006" << endl;
+        cout << "Current buffs:" << endl;
+        cout << "Base Buff: " << (((DBOG_MaxStats - 5) * Stat_buff) + 5) + (((DBOG_MaxLvl - 1) * Stat_Level) + 1) << "%" << endl;
+        cout << "Level buff: " << ((DBOG_MaxLvl - 1) * Stat_Level) + 1 << "%" << endl;
+        cout << "Stat buff: " << ((DBOG_MaxStats - 5) * Stat_buff) + 5 << "%" << endl;
+
+        cout << "keep going? ";
+        cin >> going;
+        if(going == "yes" || going == "Yes" || going == "y" || going == "Y"){
+            cout << "repeating" << endl;
+        }else{
+        Math = false;
+        }
+    }
+    return 0;
+}
+
+change_out_06/07/2025_1:06Am

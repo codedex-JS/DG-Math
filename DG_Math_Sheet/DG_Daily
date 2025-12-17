@@ -1,0 +1,79 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    double DBOG_MaxStats = 10000;
+    double DBOG_MaxLvl;
+    double Stat_Level;
+    int Grand_Kia;
+    int Gray_Math;
+    string Month;
+    int DGmath;
+    int i = 0;
+    double DMG_Health_Level_Multiplier = 0.022;
+    double DMG_Health_Stat_Multiplier = 0.0165;
+    double DMG_Damage_Level_Multiplier = 0.02;
+    double DMG_Damage_Stat_Multiplier = 0.0045;
+    double DMG_Ki_Control_Level_Multiplier = 0.0060;
+    double DMG_Ki_Control_Stat_Multiplier = 0.0030;
+    double DMG_Agility_Level_Multiplier = 0.0048;
+    double DMG_Agility_Stat_Multiplier = 0.0035;
+
+    cout << "how many times do you want to update the DG math?";
+    cin >> DGmath;
+    cout << "please put in the last entry" << endl;
+
+    cout << "Month: ";
+    cin >> Month;
+
+    cout << "Max Level: ";
+    cin >> DBOG_MaxLvl;
+
+    //cout << "Max Stats: "; old
+    //cin >> DBOG_MaxStats;
+
+    cout << "GK: ";
+    cin >> Grand_Kia;
+
+    while(DGmath > i){
+        //DBOG_MaxStats = DBOG_MaxStats + 2; old
+        //Gray_Math = DBOG_MaxStats + 145;
+        Grand_Kia = Grand_Kia +2;
+        cout << Month << ": " << endl;
+        cout << "Max level: " << DBOG_MaxLvl << endl;
+        cout << "Max stats: " << DBOG_MaxStats << endl;
+        cout << "GK: " << Grand_Kia << endl;
+        cout << "HTC: " << (DBOG_MaxLvl / 2.5) << endl;
+        cout << "GC: " << (DBOG_MaxLvl / 2.5) / 2 << endl;
+        cout << "Based max stats: 7599" << endl;
+        cout << "Base Values:" << endl;
+        cout << "Base Health: 2450" << endl;
+        cout << "Base Stamina: 1000" << endl;
+        cout << "Base Ki: 600" << endl;
+        cout << "Current Stat Level Output:" << endl;
+        cout << "Health Level Multiplier: " << DMG_Health_Level_Multiplier << endl;
+        cout << "Health Stat Multiplier: " << DMG_Health_Stat_Multiplier << endl;
+        cout << "Damage Level Multiplier: " << DMG_Damage_Level_Multiplier << endl;
+        cout << "Damage Stat Multiplier: " << DMG_Damage_Stat_Multiplier << endl;
+        cout << "Ki Control Level Multiplier: " << DMG_Ki_Control_Level_Multiplier << endl;
+        cout << "Ki Control Stat Multiplier: " << DMG_Ki_Control_Stat_Multiplier << endl;
+        cout << "Agility Level Multiplier: " << DMG_Agility_Level_Multiplier << endl;
+        cout << "Agility Stat Multiplier: " << DMG_Agility_Stat_Multiplier << endl;
+        cout << endl;
+        ++i;
+    }
+
+
+//old code
+//cout << "Current Stat Level Output:" << endl;
+//cout << "Health Level Multiplier: " << ((DBOG_MaxLvl - 1) * DMG_Health_Level_Multiplier) << endl;
+//cout << "Health Stat Multiplier: " << ((DBOG_MaxStats - 5) * DMG_Health_Stat_Multiplier) << endl;
+//cout << "Damage Level Multiplier: " << ((DBOG_MaxLvl - 1) * DMG_Damage_Level_Multiplier) << endl;
+//cout << "Damage Stat Multiplier: " << ((DBOG_MaxStats - 5) * DMG_Damage_Stat_Multiplier) << endl;
+//cout << "Ki Control Level Multiplier: " << ((DBOG_MaxLvl - 1) * DMG_Ki_Control_Level_Multiplier) << endl;
+//cout << "Ki Control Stat Multiplier: " << ((DBOG_MaxStats - 5) * DMG_Ki_Control_Stat_Multiplier) << endl;
+//cout << "Agility Level Multiplier: " << ((DBOG_MaxLvl - 1) * DMG_Agility_Level_Multiplier) << endl;
+//cout << "Agility Stat Multiplier: " << ((DBOG_MaxStats - 5) * DMG_Agility_Stat_Multiplier) << endl;
+}
