@@ -4,7 +4,7 @@ Base Values:
 ⦁	Agility: 1000
 ⦁	Ki Control: 600
 ⦁	Physical: 12
-⦁	Ki Damage: 12
+⦁	Ki Damage: 13
 
 Multipliers:
 ⦁	Health: Base Value of Health / Total Size Health
