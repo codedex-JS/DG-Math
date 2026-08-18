@@ -28,7 +28,7 @@ Stat Level Output:
 ⦁	Health Level Multiplier: 0.02
 ⦁	Health Stat Multiplier: 0.014
 ⦁	Damage Level Multiplier: 0.02
-⦁	Damage Stat Multiplier: 0.0045
+⦁	Damage Stat Multiplier: 0.0035
 ⦁	Ki Control Level Multiplier: 0.006
 ⦁	Ki Control Stat Multiplier: 0.003
 ⦁	Agility Level Multiplier: 0.0048
@@ -155,7 +155,7 @@ Ki Control:
 6,565.065 x 1.12 = 7,352.8728
 Physical:
 ((1250 - 1) x 0.02) = 24.98
-((2678.3 - 1) x 0.0045) = 12.04785
+((2678.3 - 1) x 0.0035) = 12.04785
 (24.98 + 12.04785) x 12 + 12 = 456.3342
 456.3342 x 5 = 2,281.671
 Ki DMG:
@@ -168,7 +168,7 @@ Damage calculation Example:
 
 Person A is attacking Person B with an attack with a base damage of 1000, Person A is level 1250 with 2678.3 physical while also in a path 1 form (5x) multiplier with S rank rush damage (total 5.5x dmg)
 
-(((2678.3 - 1)x 0.0045 + (1250 - 1) x 0.02) x 1000 + 1000) x (5 + (50 / 100))= 209153.175
+(((2678.3 - 1)x 0.0035 + (1250 - 1) x 0.02) x 1000 + 1000) x (5 + (50 / 100))= 209153.175
 If Ki:
 (((760 - 1)x 0.0045+(1250-1) x 0.02) x 1000 + 1000)x(5 +(50 / 100))= 161,675.25
 
